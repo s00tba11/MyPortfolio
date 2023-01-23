@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Thanks for visiting my portfolio!
 
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Website Name: Natelie Portfolio
+Website URL: https://natelieportfolio.netlify.app/
+Author: Neo Ru En Natelie
