@@ -438,7 +438,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -1129,7 +1129,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1159,26 +1159,112 @@ section .container {
   padding: 15px 0 0 0;
 }
 
-@media (max-width: 992px) {
-  .portfolio-details .portfolio-info {
-    padding-top: 20px;
-  }
+.workprocess {
+  float: left;
+  width: 100%;
+  text-align: left;
 }
 
-.portfolio-details .swiper-pagination {
+.projects-details-slider {
+  clear: both;
+}
+
+.UXDs .UXDs-carousel,
+.UXDs .UXDs-slider {
+  overflow: hidden;
+}
+
+.UXDs .UXD-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+
+.UXDs .UXD-item .UXD-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.12);
+}
+
+.UXDs .UXD-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #fff;
+}
+
+.UXDs .UXD-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+
+.UXDs .UXD-item .quote-icon-left,
+.UXDs .UXD-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 26px;
+}
+
+.UXDs .UXD-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.UXDs .UXD-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.UXDs .UXD-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.UXDs .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .swiper-pagination .swiper-pagination-bullet {
+.UXDs .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
+.UXDs .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
+}
+
+
+@media (max-width: 992px) {
+
+  .UXDs .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .UXDs .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .UXDs .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #18d26e;
+  }
 }
 
 /*--------------------------------------------------------------
