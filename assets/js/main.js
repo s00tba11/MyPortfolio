@@ -284,8 +284,39 @@ new Swiper('.certificates-slider', {
     }
   });
 
+
+ /**
+   * UXD maain slider
+   */
+ new Swiper('.mainUXDs-slider', {
+  speed: 600,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
+  },
+  slidesPerView: 'auto',
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+
+    1200: {
+      slidesPerView: 5,
+      spaceBetween: 20
+    }
+  }
+});
+
+
   /**
-   * UXD slider
+   * UXD slider for prototypes
    */
 new Swiper('.UXDs-slider', {
   speed: 600,
@@ -312,6 +343,8 @@ new Swiper('.UXDs-slider', {
     }
   }
 });
+
+
 
   /**
    * Initiate Pure Counter 
